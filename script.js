@@ -9,4 +9,5 @@ const jmenoTrim = emailJmeno.trim()
 
 const jmenoSlice = jmenoTrim.slice(0, 3)
 
-document.body.innerHTML = prijmeniSlice + jmenoSlice + "@fit.cvut.cz"
+document.body.innerHTML =
+`<h2>${prijmeniSlice}${jmenoSlice}${"@fit.cvut.cz"}</h2>`
